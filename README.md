@@ -2,8 +2,17 @@
 
 # NOTE TO SELF
 
-index.html is simply accessed with https://zyanwashere.github.io/website/
+- index.html --> https://www.zyanwashere.com/
+- FILE.html --> https://www.zyanwashere.com/FILE.html
+- FOLDER/FILE --> https://www.zyanwashere.com/FOLDER/FILE.html
 
-any subsequent files are accessed with: https://zyanwashere.github.io/website/FILE.html
+UPDATE: DNS has been checked and confirmed. so now https://www.zyanwashere.com/ works!
 
-unless it is in a folder, in which case: https://zyanwashere.github.io/website/FOLDER/FILE.html
+BEFORE DNS:
+
+- index.html is simply accessed with https://zyanwashere.github.io/website/
+- any subsequent files are accessed with: https://zyanwashere.github.io/website/FILE.html
+- unless it is in a folder, in which case: https://zyanwashere.github.io/website/FOLDER/FILE.html
+
+
+
