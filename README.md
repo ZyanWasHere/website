@@ -1,3 +1,8 @@
+# ISSUES
+
+- comic sans turns to cursive on mobile?
+- filenames are innacurate
+- folder structure needs fixing too
 
 
 # NOTE TO SELF
