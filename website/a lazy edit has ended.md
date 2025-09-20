@@ -1,0 +1,12 @@
+	last updated: 2025-06-12
+
+# a lazy edit has ended
+![[a lazy edit has ended 1.png]]
+
+## backstory
+it's official! some of you might be looking at this in confusion, thinking "what are you on about? what's a lazy edit", and fair. let's talk about it! a lazy edit was a blender / after effects tutorial channel for tutorials under a minute.
+
+now i think that this is funny. at the time it didn't work because tutorials were already kind of niche and youtube did not promote videos that weren't very long. (you can tell how much time has passed because this was made before tiktok or youtube shorts) so it never ended up taking off. for the longest time it was in "hibernation" and i would occasionally test the waters. but by the time it ended up seeing any remote success, i had already planned to archive the channel.
+
+## a potential revival?
+throughout 2024 i made a series of vertical videos which ended up performing relatively well! and that's good because it tells me that, at least in some universe, there is a demand for this kind of media. the current presentation and style wasn't up to my personal satisfaction. one of the issues i have with "a lazy edit" is that it was very much a "blind leading the blind" situation. i was so inexpirienced at the time, and because of it: so much of what i said was just... wrong. so if i were to revive this subgenre of media, it would definitely be on another channel, in another style, in another lifetime.
