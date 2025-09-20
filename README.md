@@ -1,6 +1,7 @@
 # ISSUES
 
 - comic sans turns to cursive on mobile?
+- website updates faster on incognito browsers???
 - filenames are innacurate
 - folder structure needs fixing too
 
