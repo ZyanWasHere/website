@@ -1,45 +1,20 @@
 
+/* HEADERS & TEXT */
 * {
-/* VARIABLES    ======================================== */
-/* ===================================================== */
-  --test: #FF0000;
-
-  --header: #CCBBAA;
-  --text1: #AA9988;
-
-  --background1: #222222;
-  --background2: #2d2d2d;
-  --background3: #333333;
-  --background4: #555555;
-
-  --accent1: #bb6633;
-  --accent2: #eeaa22;
-  --accent3: #ffcc44;
-
-  --h1-size: 1.50em;
-  --h2-size: 1.25em;
-  --h3-size: 1.10em;
-
-/* FONT OPTIONS ======================================== */
-/* ===================================================== */
-  font-family: 'Arial', sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 1.5;
-  color: var(--text1);
+  color: #AA9988;
 }
 
-/* HEADER  ============================================ */
-/* ==================================================== */
 h1, h2 {
-  color: var(--header);
+  color: #CCBBAA;
   font-weight: bold;
-  line-height: var(--h1-size);
+  line-height: 1;
 }
 
-/* CODE & QUOTES ======================================= */
-/* ===================================================== */
 code, blockquote {
-  background-color: var(--background1);
-  color: var(--text1);
+  background-color: #222222;
+  color: #888888;
   padding: 1em;
   border left: 5px solid #555;
   max-width: 100%;
@@ -48,30 +23,27 @@ code, blockquote {
   padding: 10px;
 }
 
-/* HYPERLINKS   ======================================== */
-/* ===================================================== */
 a {
-  color: var(--accent2);
+  color: #eeaa22;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent3);
+  color: #ffcc44;
   text-decoration: underline;
 }
 
 summary {
-  color: var(--accent3);
-  background-color: var(--background1);
+  color: #ffcc44;
+  background-color: #363533;
 }
 
 
 
 
-/* FORMATTING   ======================================== */
-/* ===================================================== */
+/* FORMATTING */
 body {
-  background-color: var(--background2);
+  background-color: #2d2d2d;
   padding: 50px;
   margin: auto;
   max-width: 800px;
@@ -99,10 +71,9 @@ body {
 
 
 
-/* NAVBAR       ======================================== */
-/* ===================================================== */
+/* NAVBAR */
 .navbar {
-    background-color: var(--background1);
+    background-color: #1d1d1d;
     overflow: hidden;
 }
 
@@ -112,11 +83,11 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: var(--accent1);
+    color: #bb6633
 }
 
 .navbar a:hover {
-    background-color: var(--background3);
+    background-color: #151515;
     color: #ffcc44;
 }
 
