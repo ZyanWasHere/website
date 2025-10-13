@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- tells website to use css + adds favicon + title info  -->
+<!-- ===================================================== -->
+  <link rel="stylesheet"href = "zyanwashere.css">
+  <link rel="shortcut icon" href= "website logo.ico" type="website-icon">
+  <title> making my own fantasy console part 1 research </title>
+</head>
+
+<ul class="header">
+  <a href="https://www.zyanwashere.com"> <img src="website logo.png" class="logo" alt="description"> </a>
+</ul>
+
+<!-- navbar options ====================================== -->
+<!-- ===================================================== -->
+<ul class = "navbar">
+  <li><a href="https://www.patreon.com/zyanwashere">patreon</a></li>
+  <li><a href="index">all pages</a></li>
+  <li><a href="#">projects</a></li>
+  <li><a href="faq">faq</a></li>
+</ul>
+
+
+
+  <!-- TYPE BELOW HERE-->
+<p><code>last updated: 2025-09-29</code></p>
+<h1>making my own fantasy console part 1 research</h1>
+<h2>emulation</h2>
+<p>it's BEAUTIFUL how good emulation is! i can run a wii on everything from my computer, to my phone to my tablet and laptop. the beauty of emulation is versatility. something as old as the nes (now over 30 year old hardware and software) can still run on your devices today!</p>
+<p>and when thinking about software that would stand the test of time - my mind definitely went to emulation. if you wanted to make a game that was ported to every device? that sounds pretty difficult to accomplish. minecraft for consoles and minecraft for pc are two different versions. THATS THE "SAME GAME", effectively made twice! and it took a lot of effort to port one over into the other, with very drastic differences and imperfections.</p>
+<p>but what if the game itself never has to be altered. the only thing that is altered: is the emulator, to run on different platforms.</p>
+<h2>virtual machines and fantasy consoles!</h2>
+<p>a virtual machine is like a digital computer inside your real computer. just like an emulator is a digital console inside your real computer. and a fantasy console is a digital (fake, someone made it up) console inside your real computer. these are effectively the same thing with different branding. emulators try to mimic old consoles. virtual machines try to mimic custom computers. and fantasy consoles mimic a console that doesn't exist.</p>
+<p>the difference? their limitations. a nes emulator is purposefully mimicking the nes. it cannot emulate an xbox game. a fantasy console is trying to run its own games, it cannot run anything else. and when working on a project of this scale, its good to think about roadblocks and limitations.</p>
+<h2>what am i even looking for?</h2>
+<p>i wanted to make an engine that i could have everywhere... i realized i had a vague concept of what i wanted. so before i started slapping things together i needed to know the limitations of what i was about to be creating.</p>
+<p>easy portability - it has to be easily ported from device to device. i want to download and install it within 10 minutes. and want to be able to at least run it on my phone, computer, and tablet. if it can run on anything else that would be amazing. it also has to be easy to port material to it. so it should be able to export rom files, maybe scan a QR code to run the file, i don't know yet.</p>
+<p>creativity - this is a jack of all trades machine. you should be able to draw, make music, code programs and design games with it. i would also LIKE... to be able to do 3d work on here. but i don't know if that's possible?</p>
+<p>small and minimal - a lot of the programs that will be made for it are simple. if you think "i want to make a notepad app" it should be able to be built and run on: a toaster! it should boot up fast, close fast, be transfered fast, and be small.</p>
+<p>ideas that you should be able to do with it: make a calculator, notepad, calendar, music player, file searcher(?)</p>
+<h2>lets look at the nes</h2>
+<p>before i opened up any software, and slapped code together. it's useful to find similar projects and see what others have done, and where that takes you. right now the possibilities seem endless, but that's because i don't know what i'm even looking for... "the possibilities seem endless" - i say, looking into the distance, blindfolded...</p>
+<p>the first project i found was from: <a href="https://www.youtube.com/watch?v=ZWQ0591PAxM">morphcat games</a>, where they make a game on the nes! that is really cool! it also looks... really annoying! this was a beautiful look into the technical details and limitations of the nes. first and foremost space is a really big issue. they had to do a lot of tricks to compress their game down... multiple times. secondly was the limited color pallette. the nes contains a 16bit color pallette. which makes art projects pretty limited. lastly was rendering things on screen. the nes can only display a set amount of sprites before you have to use tricks like flickering between sprites, in order for them to be visible. i knew one thing for sure... i wanted something more advanced than the nes or anything before that era!</p>
+<h2>lets look at the snes</h2>
+<p>so i'd like for something that has more variety, more colors, more sound options but can still run on practically anything - well, why don't i just look at the successor to the nes? the snes. it can render over 32k colors, and displays 256 of them at the screen at once. it's more technically advanced, has options for custom sounds. if you think about it, the snes even has its own mouse. if you push it hard enough, it's practically a computer!</p>
+<p>i found a video by <a href="https://www.youtube.com/watch?v=kYLJLJkVfLk">inkbox</a> where they attempt to make a game for the snes. and... it surprisingly looks... "easy". easy is an understatement, you're messing with assembly code, and individual registers in the computer chip. i can't imagine how much of a pain it was to research what they did, but that' stuff's for nerds! the real beauty is that: i didn't really see them run into any hurdles with the actual hardware... if there was more documentation around this, it might seem like an interesting lead...</p>
+<h2>lets look at the gba</h2>
+<p>the gameboy advanced is a fan favorite among retro enthusiests. there's a shocking amount of videos and guides showing you how to make your own gba game. so in terms of information - this and the nes are some of your best sources for understanding how virtual machines and fantasy consoles work. why? because everything is... annoyingly "under the hood". you don't just write "hello world" in a file and hit run, you have to tell registers on the computer chip what to do and how to do it. if you CAN just write "hello world" and hit run, that means someone has done all the grunt work for you.</p>
+<p>just like the snes: i didn't see as many hurdles people ran into when creating material for the gba. i guess that makes sense... you see a lot of pokemon rom hacks, which are inspired heavily from the gba era. so it makes sense that at some point these must've been reverse engineered to death. i saw <a href="https://www.youtube.com/watch?v=APWrwn26Qts">neshacker</a> make a D&amp;D inspired game for the gba, and it looked... surprisingly easy.</p>
+<p>the biggest issues i keep seeing, and the biggest sore spots are: writing to registers and assembly code. if you can add a layer of obfuscation to it, then it would make the whole process actually enjoyable and easy to work with!</p>
+<h2>the shared DNA of every device</h2>
+<p>as i was looking through these projects i noticed something interesting. they all shared a unique piece of history. current devices have all sorts of different computer chips. but in the 90s, everything from the nes, to the atari 2600. commodore 64, to the apple 2 ran on a computer chip called the 6502, or used a version that mimicked the 6502.</p>
+<p>why? turns out this thing was pretty darn cheep, and easy to get ahold of. when newer chips came out, a lot of them also mimicked the 6502. it was compatible. in order to code on that thing you need to know about assmebly. assembly is a catagory of programming languages that directly access components of the computer. its one step before writing in pure binary. for the 6502 chip you specifically write in "6502 assembly".</p>
+<h2>the rosetta stone of programming languages</h2>
+<p>now if this was where it stopped i wouldn't have mentioned it. but one step before assembly code is c. c is a really old programming language, and it turns out a lot of languages that follow suit use c as a base. python for example runs on c. ruby, runs on c. and c? runs on assembly, which runs on binary. how cute. it's giants on top of giants on top giants.</p>
+<p>now: c has been updated over the years. i didn't know that. there are multiple versions of c, each one adding slightly more features. c11 for example was a version of c made in 2011. it has more features than c99, which was made in 1999. now: you can actually write for the 6502 chip without writing things in assembly, because c uses assembly. so you can actually write for the 6502 on a version of c called c89 or ANSI C. there's actually a few reasons why you'd want to write in c89. the main reason is that: its as backwards compatible as it comes. it'll run things from as far back as the 90s up until the present day. secondly: it's reliable. c is installed on everything from linux to android, windows and so forth. so its the most backwards compatible, versatile, standard thing.</p>
+<p>the downside is that it's a layer of obfuscation. you're not working with raw binary, or raw assembly code. so its not "extremely optimal". many people who HAVE written games for the nes choose to do so in assembly because apperantly, there's noticible lag when using c. now, the upside to using c89 is that a lot of the work is done for us. if i want to import it from my phone to pc? i just need it to run c! that's better than raw assembly code because assembly code is specifically tailored for individual computer chips. so i would need to rewrite things in whatever assembly code my phone uses, and then again for the pc. or hope that it's compatible with no changes. this is all hypothetical though - in reality i've barely even touched assemby, and have little expirience in multiple versions of c... so this is kind of second hand information. blind leading the blind situation.</p>
+<h2>lets look at pico-8</h2>
+<p>the <a href="https://www.lexaloffle.com/pico-8.php">pico-8</a> is a fantasy console that lets you code, make music and draw pixel art. one of the best things about it, is that its heavily obfuscated: it easily allows you to make pixel art, it has built in music track software, and code is practically LUA. you can export everything onto a png file, which is how it exclusively shares its games. pretty cool! it's also: able to run on web browsers. this, conceptually is a beautiful thing. and honestly? i thought i might just stop here. why re-invent the wheel right? you can even play games (from the browser), on your phone! that's sick.</p>
+<p>sadly there are a few notible downsides: first off is the screen resolution. it is 128x128 pixels. it also has 16 colors that you cannot modify. pico-8 is designed to be a light hearted fantasy console for micro-games. which means you also have a limited amount of code you can write. it also has a harsh size limitation of 32kb of data.</p>
+<p>that's not to discount the potential of pico-8. it can do a lot, and its very specific in what it wats to do. the reason its so limiting is that the creator wanted to avoid scope creep - to have people not make huge projects, but something cute and small. and i think it does that well. expecting anything else would be like asking for your calculator to play youtube videos, and wash your dishes.</p>
+<h2>lets look at uxn</h2>
+<p>i found out <a href="https://100r.co/site/uxn.html">100r has made a virtual machine called the uxn</a>. some of the concepts they talk about went over my head, but the idea looked fascinating enough, and turns out i kind of used their virtual machine already without even knowing. because all of their programs are made with uxn (or, most of them), and <a href="https://100r.co/site/orca.html">a while ago i played around with a music editor called orca</a>.</p>
+<p>this is actually pretty close to what i'm looking for as well, the only issue that i cannot understand it... a lot of the language that's used in these posts are too high concept for me to understand. by all means it seems like you might be able to do... anything in this software. 100r have made music with it (again, orca) - there's a few games on it like <a href="https://100r.co/site/donsol.html">donsol</a>, so making something similar to this, if i can grasp how it works, should be just what i'm looking for. i just need something slightly more accessible...</p>
+<h2>here's what i got</h2>
+<p>i want to make software, games, and art. for this i can program a virtual machine in c89, roughly mimicking the performance of the gameboy advanced. and: it will be able to import and export files through a png or text and through a rom file. i want to have a built in code, sprite, and music editor. now i just need to... make it.</p>

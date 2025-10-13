@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- tells website to use css + adds favicon + title info  -->
+<!-- ===================================================== -->
+  <link rel="stylesheet"href = "zyanwashere.css">
+  <link rel="shortcut icon" href= "website logo.ico" type="website-icon">
+  <title> making my own fantasy console part 2 coding </title>
+</head>
+
+<ul class="header">
+  <a href="https://www.zyanwashere.com"> <img src="website logo.png" class="logo" alt="description"> </a>
+</ul>
+
+<!-- navbar options ====================================== -->
+<!-- ===================================================== -->
+<ul class = "navbar">
+  <li><a href="https://www.patreon.com/zyanwashere">patreon</a></li>
+  <li><a href="index">all pages</a></li>
+  <li><a href="#">projects</a></li>
+  <li><a href="faq">faq</a></li>
+</ul>
+
+
+
+  <!-- TYPE BELOW HERE-->
+<p><code>last updated 2025-09-30</code></p>
+<h1>making my own fantasy console part 2 coding</h1>
+<h2>concept</h2>
+<p>i wanted to make software, games, and art in one place. for this i wanted a virtual machine written with c89, roughly mimicking the performance of the gameboy advanced. it should be easily portable to every device. easy to import software into, with a rom. the code should be easily accessible, maybe using lua or custom code? maybe its just raw md files idk yet. it needs a built in code, sprite and music editor. and hopefully it should run fast. that seems overly optimistic. but we'll see what we can do.</p>
+<h2>learning how to make a virtual machine</h2>
+<p>now, i know previously in: <a href="making my own fantasy console part 1 research.html">making my own fantasy console part 1 research</a> - i mentioned that the nes was too simplistic for what i wanted to accomplish. but i still found myself coming back to it because of how much of a monolith it was, as a source of knowledge. in order to make a virtual machine i needed to know how computers worked - this led me to seeing how people made emulators and virtual machines. this takes us to: <a href="https://www.patater.com/gbaguy/nesasm.htm">nes asm tutorial</a></p>
+<p>its a detailed guide on how assembly works, programming for the nes, music and so forth. so its a really good look of how things operate "under the hood" that i can then transfer into my own project.</p>
+<p>i also read <a href="https://www.jmeiners.com/lc3-vm/">justin meiners and rayan pendleton's guide on writing a virtual machine</a> which explained a lot of the technicalities better than i ever could. and i used a lot of <a href="https://100r.co/site/uxn_design.html">100r's blogs about their uxn virtual machine</a>.</p>
+<p>the virtual machine: emulates a computer chip, ram, and instructions. it stores data in screen memory which it then renders through a screen buffer.</p>
+<h2>the gameboy advanced is... pretty advanced</h2>
+<p>who would've guessed. <a href="https://www.coranac.com/tonc/text/video.htm">i'm looking over the capabilities of the gba</a> and it was able to make practically any color, with a limit of 256 possible colors on the screen. it had 4 background layers and 1 sprite layer. this is useful to know when we use it to create our own sprite editor. it also contained effects you could do to the individual sprites: like scaling, blending, rotating. as well as introducing noise, and mosaics.</p>
+<p>so those are: sprite-specific effects, but we also have bitmaps and tile backgrounds which affect the entire screen. think: earthquake shake, or vcr static.</p>
+<p>the only thing i would add is a vector creator: lets say we want to make points on a graph and then create a vectorized shape to connect them all. there's no way to do that in the existing software i think? i would also like a pixel 'mesher'? transforming shape "a" into shape "b", animorphs style.</p>
