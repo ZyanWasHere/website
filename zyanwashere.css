@@ -62,6 +62,17 @@
 
 }
 
+@media (max-width: 600px)
+{
+  *
+  {
+    font-size: var(1.25rem);
+  }
+}
+
+
+
+
 h1, h2
 {
   color: var(--gray1);
