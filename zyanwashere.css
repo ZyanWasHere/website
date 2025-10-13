@@ -62,10 +62,11 @@
 
 }
 
-@media (max-width: 600px)
+@media (max-width: 1000px)
 {
   *
   {
+    backround-color: red;
     font-size: var(1.25rem);
   }
 }
