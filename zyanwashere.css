@@ -12,7 +12,7 @@
   --highlight1: #eeaa22;
   --highlight2: #ffcc44;
 
-  --size-text: 1.1rem;
+  --size-text: 1.25rem;
   --size-nav: 1rem;
 }
 
@@ -61,16 +61,6 @@
   font-size: var(--size-text);
 
 }
-
-@media (max-width: 1000px)
-{
-  *
-  {
-    backround-color: red;
-    font-size: var(1.25rem);
-  }
-}
-
 
 
 
