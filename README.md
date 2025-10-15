@@ -2,9 +2,6 @@
 
 - comic sans turns to cursive on mobile?
 - website updates faster on incognito browsers???
-- filenames are innacurate
-- favicon and navbar inconsistent size on different platforms
-- folder structure needs fixing too
 
 
 # NOTE TO SELF
