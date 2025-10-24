@@ -1,3 +1,10 @@
+# 2025-10-24
+ironically this is a really good log...
+alright i'm rebuilding the website compiler in c.
+we're also rebuilding the individual site pages.
+i didn't like how they look.
+
+
 # 2025-10-14
 honestly, i'm tired. half of this is broken beyond repair.
 wouldn't it be kinda nice if i just nuked it and started clean?
