@@ -24,6 +24,15 @@
 /* PC VERSION */
 @media (min-width: 1000px)
 {
+
+  html
+  {
+    display: block;
+  }
+
+
+
+
   body
   {
     background-color: var(--dark2);
@@ -84,11 +93,13 @@
   body
   {
     background-color: red;
-    font-size: var(--text-mobile);
     font-family: var(--font);
-    word-wrap: break-word;
   }
 
+  html
+  {
+    display: block;
+  }
   p {
     display: block;
     margin-block-start: 1em;
