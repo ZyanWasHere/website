@@ -19,14 +19,31 @@
 
 
 
-html
+
+@media (max-width: 700px)
 {
-  display: block;
-  background-color: red;
+  html
+  {
+    display: block;
+    background-color: blue;
+  }
+  
+  p
+  {
+    font-size: 1.25em
+
+  }
 }
 
-p
+
+
+
+@media (min-width: 700px)
 {
-  font-size: 1.25em
+  html
+  {
+    display: block;
+    background-color: red;
+  }
 
 }
