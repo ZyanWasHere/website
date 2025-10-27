@@ -88,17 +88,6 @@
     font-family: var(--font);
   }
 
-  .navbar
-  {
-    position: relative;
-  }
-
-  .navbar ul
-  {
-    max-width: 480px;
-    background-color: black;
-  }
-
 
 
 
