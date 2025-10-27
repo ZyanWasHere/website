@@ -52,32 +52,6 @@
   {
     color: var(--gray2);
   }
-
-
-
-
-
-  .navbar ul
-  {
-    background-color: var(--dark1);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .navbar ul li a
-  {
-    color: var(--highlight1);
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  .navbar ul li a:hover
-  {
-    color: var(--highlight2);
-  }
 }
 
 
