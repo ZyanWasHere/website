@@ -44,6 +44,16 @@ the website has been made! hopefully there shouldn't be any issues from here on 
 
 # NOTE TO SELF
 
+
+PROBLEMS:
+- text size WAY too small
+- website FOR SOME REASON updates if you're on a new browser... it REMEMBERS css history. WHICH MAKES IT HORRIBLE to see changes...
+- padding issues
+- man what isn't there to fix
+
+
+
+
 WITH DNS:
 - index.html --> https://www.zyanwashere.com/
 - FILE.html --> https://www.zyanwashere.com/FILE.html
