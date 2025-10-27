@@ -86,7 +86,17 @@
     background-color: red;
     font-size: var(--text-mobile);
     font-family: var(--font);
+    word-wrap: break-word;
   }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
 
 
 
