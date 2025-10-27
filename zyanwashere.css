@@ -16,3 +16,11 @@
   --size-nav: 1rem;
   --font: Arial, Helvetica, sans-serif;
 }
+
+
+
+html
+{
+  display: block;
+  font-size: 1.25em
+}
