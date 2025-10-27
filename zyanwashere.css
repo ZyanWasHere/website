@@ -12,6 +12,7 @@
   --highlight2: #ffcc44;
 
   --text-pc: 1.15rem;
+  --text-mobile: 1.5rem;
   --size-nav: 1rem;
   --font: Arial, Helvetica, sans-serif;
 }
@@ -84,7 +85,7 @@
   {
     background-color: red;
     margin: auto;
-    font-size: var(--text-pc);
+    font-size: var(--text-mobile);
     font-family: var(--font);
   }
 
