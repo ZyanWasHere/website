@@ -22,10 +22,11 @@
 html
 {
   display: block;
+  background-color: red;
 }
 
 p
 {
-  font-size: 2em
+  font-size: 1.25em
 
 }
