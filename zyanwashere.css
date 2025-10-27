@@ -1,0 +1,116 @@
+
+/* VARIABLES */
+:root
+{
+  --dark1: #222222;
+  --dark2: #2d2d2d;
+
+  --gray1: #CCBBAA;
+  --gray2: #AA9988;
+
+  --highlight1: #cc8800;
+  --highlight2: #ffcc44;
+
+  --text-pc: 1.15rem;
+  --size-nav: 1rem;
+  --font: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* PC VERSION */
+@media (min-width: 1000px)
+{
+  body
+  {
+    background-color: var(--dark2);
+    padding: 50px;
+    margin: auto;
+    max-width: 800px;
+    font-size: var(--text-pc);
+    font-family: var(--font);
+  }
+
+  h1, h2
+  {
+    color: var(--gray1);
+  }
+
+  p
+  {
+    color: var(--gray2);
+  }
+
+
+
+
+
+  .navbar ul
+  {
+    background-color: var(--dark1);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar ul li a
+  {
+    color: var(--highlight1);
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar ul li a:hover
+  {
+    color: var(--highlight2);
+  }
+}
+
+
+
+
+
+
+
+
+/* MOBILE VERSION */
+@media (max-width: 1000px)
+{
+  body
+  {
+    background-color: red;
+    margin: auto;
+    font-size: var(--text-pc);
+    font-family: var(--font);
+  }
+
+  .navbar
+  {
+    position: relative;
+  }
+
+  .navbar ul
+  {
+    max-width: 480px;
+    background-color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
