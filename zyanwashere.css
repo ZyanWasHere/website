@@ -19,82 +19,20 @@
 
 
 
-
-
-/* PC VERSION */
-@media (min-width: 1000px)
+body
 {
-
-  html
-  {
-    display: block;
-  }
-
-
-
-
-  body
-  {
-    background-color: var(--dark2);
-    padding: 50px;
-    margin: auto;
-    max-width: 800px;
-    font-size: var(--text-pc);
-    font-family: var(--font);
-  }
-
-  h1, h2
-  {
-    color: var(--gray1);
-  }
-
-  p
-  {
-    color: var(--gray2);
-  }
+  background-color: red;
 }
 
-
-
-
-
-
-
-
-/* MOBILE VERSION */
-@media (max-width: 1000px)
+html
 {
-  body
-  {
-    background-color: red;
-    font-family: var(--font);
-  }
-
-  html
-  {
-    display: block;
-  }
-  p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+  display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
