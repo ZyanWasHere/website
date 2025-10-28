@@ -11,8 +11,8 @@
   --highlight1: #cc8800;
   --highlight2: #ffcc44;
 
-  --text-pc: 1.25rem;
-  --text-mobile: 1.5rem;
+  --text-pc: 24px;
+  --text-mobile: 24px;
   --size-nav: 1rem;
   --font: Arial, Helvetica, sans-serif;
 }
@@ -28,10 +28,12 @@
 {
   html
   {
+    font-family: var(--font);
     display: block;
     background-color: red;
-    font-family: var(--font);
-    padding: 50px;
+    margin: auto;
+    max-width: 800px;
+
 
   }
 
@@ -52,15 +54,18 @@
 {
   html
   {
+    font-family: var(--font);
     display: block;
     background-color: blue;
-    font-family: var(--font);
+    margin: auto;
+    
+    max-width: 800px;
+
   }
 
   p
   {
     font-size: var(--text-mobile);
-    font-size: 1.5em;
     white-space: pre-wrap;
 
   }
