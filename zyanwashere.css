@@ -11,7 +11,7 @@
   --highlight1: #cc8800;
   --highlight2: #ffcc44;
 
-  --text-pc: 1.15rem;
+  --text-pc: 1.25rem;
   --text-mobile: 1.5rem;
   --size-nav: 1rem;
   --font: Arial, Helvetica, sans-serif;
@@ -20,36 +20,48 @@
 
 
 
-@media (max-width: 1000px)
-{
-  html
-  {
-    display: block;
-    background-color: blue;
-  }
-
-  p
-  {
-    font-size: 1.25em
-
-  }
-}
 
 
 
-
+/* pc */
 @media (min-width: 1000px)
 {
   html
   {
     display: block;
     background-color: red;
+    font-family: var(--font);
+    padding: 50px;
+
   }
 
   p
   {
-    font-size: 1.25em
+    font-size: var(--text-pc);
+    white-space: pre-wrap;
   }
 
 
+}
+
+
+
+
+/* mobile */
+@media (max-width: 1000px)
+{
+  html
+  {
+    display: block;
+    background-color: blue;
+    font-family: var(--font);
+  }
+
+  p
+  {
+    font-size: var(--text-mobile);
+    font-size: 1.5em;
+    white-space: pre-wrap;
+
+  }
 }
