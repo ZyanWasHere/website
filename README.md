@@ -1,11 +1,34 @@
 # ISSUES TO RESOLVE
+- font sizes need to be tweaked
+- font needs to be changed
+- website compiler needs to be built
 
-- font changes size depending on platform
+
+# NOTE TO SELF
+- "c" folder = compiler
+- "i" folder = input (all the markdown files)
+- "t" folder = template
+- "w" folder = website
+
+
+WITH DNS:
+- index.html --> https://www.zyanwashere.com/
+- FILE.html --> https://www.zyanwashere.com/FILE.html
+- FOLDER/FILE --> https://www.zyanwashere.com/FOLDER/FILE.html
+
+BEFORE DNS:
+- index.html is simply accessed with https://zyanwashere.github.io/website/
+- any subsequent files are accessed with: https://zyanwashere.github.io/website/FILE.html
+- unless it is in a folder, in which case: https://zyanwashere.github.io/website/FOLDER/FILE.html
+
 
 
 
 
 ## 2025-11
+- remaking the website compiler in c
+- remaking the css to function for both PC and mobile
+
 
 90% chance of giving up on the website...
 
@@ -51,25 +74,3 @@ this month was PACKED! it felt like i hardly had time to do anything! i jumpstar
 - added a lazy edit has come to an end
 
 the website has been made! hopefully there shouldn't be any issues from here on out. but lets be honest - by saying that i have signed off on my own fate.
-
-# NOTE TO SELF
-
-
-PROBLEMS:
-- text size WAY too small
-- website FOR SOME REASON updates if you're on a new browser... it REMEMBERS css history. WHICH MAKES IT HORRIBLE to see changes...
-- padding issues
-- man what isn't there to fix
-
-
-
-
-WITH DNS:
-- index.html --> https://www.zyanwashere.com/
-- FILE.html --> https://www.zyanwashere.com/FILE.html
-- FOLDER/FILE --> https://www.zyanwashere.com/FOLDER/FILE.html
-
-BEFORE DNS:
-- index.html is simply accessed with https://zyanwashere.github.io/website/
-- any subsequent files are accessed with: https://zyanwashere.github.io/website/FILE.html
-- unless it is in a folder, in which case: https://zyanwashere.github.io/website/FOLDER/FILE.html
