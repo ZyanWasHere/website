@@ -33,11 +33,12 @@
     background-color: var(--dark1);
     margin: auto;
     max-width: 800px;
+    line-height: 1.25;
   }
 
   .header
   {
-        padding: 2rem;
+        padding: 1.25;
         text-align: center;
   }
 
@@ -100,16 +101,19 @@
 
   li
   {
+    font-size: var(--text-pc);
     color: var(--gray2);
   }
 
-  .thumbnail {
+  img {
     width: 800px;
     max-width: 100%;
   }
 
   code, blockquote
   {
+    border: 1.5px solid var(--gray2);
+    font-size: var(--text-pc);
     font-style: italic;
     background-color: var(--dark2);
     color: var(--gray2);
@@ -168,6 +172,7 @@
 
     li
     {
+      font-size: var(--text-mobile);
       color: var(--gray2);
     }
 
@@ -181,13 +186,15 @@
     text-decoration: underline;
   }
 
-  .thumbnail {
+  img {
     width: 800px;
     max-width: 100%;
   }
 
   code, blockquote
   {
+    border: 1.5px solid #CCCCCC;
+    font-size: var(--text-pc);
     font-style: italic;
     background-color: var(--dark2);
     color: var(--gray2);
