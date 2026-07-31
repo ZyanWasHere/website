@@ -1,0 +1,279 @@
+<!--template-applied-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href = "zyanwashere.css">
+  <link rel ="shortcut icon" href = "website logo.ico" type = "website-icon">
+</head>
+
+
+<ul class="header">
+  <a href="https://www.zyanwashere.com"> <img src="website logo.png" class="logo" alt="description"> </a>
+</ul>
+<!DOCTYPE html>
+<html>
+
+
+<p><code>last updated: 2026-07-31</code></p>
+<h1 id="what-is-a-paper-computer">what is a paper computer</h1>
+<p>recently i learned how to make a computer with only a piece of paper! this is funnily enough, called a: paper computer. (sometimes called the "WDR paper computer" or "know how computer") the idea is: you can make a simple computer, on paper, without electricity. i wanted to share how to make one of these!</p>
+<p>NOW... this computer won't play fortnite or even run DOOM. it was a teaching tool in the 1980's to teach the absolute BASICS of what a computer does. this means the paper computer is turing complete! even though you're doing everything on paper, it can do loops, read / write data, and it can do if else statements.</p>
+<h1 id="how-to-make-a-paper-computer">how to make a paper computer</h1>
+<p>the computer is made with a piece of paper, a pen, and some matches. the pen is used to draw all the boxes to make the computer easier to understand. but you can also use the pen as a pointer. you place it at the start of line 1 and move it to the next line to keep track of what the next instruction is.</p>
+<p>the computer looks a little like the example diagram below. NOTE that for this example i only wrote 4 lines but you can make as many as you want. i also have 2 registers but you can also make as many as those as you want.</p>
+<p>a register is a fancy word for storage. it can hold data, memory addresses, instructions - it's a fancy box. for the paper computer, you're able to add or subtract 1 to the box, or check if that box is empty. that's why we have matches. we put them in the registers to keep track so we don't forget. at the start it's typically empty. so the registers are zero. but you can make them start at any number.</p>
+<table>
+<thead>
+<tr>
+<th>LINE</th>
+<th>INSTRUCTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>REGISTER</th>
+<th>AMOUNT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>the computer only has 5 rules.</p>
+<ul>
+<li>jump x = jumps to line x</li>
+<li>add x = add 1 to register x</li>
+<li>sub x = subtract 1 from register x</li>
+<li>isz x = checks if register x is 0, if it is we skip 1 line.</li>
+<li>stop = stops the program</li>
+</ul>
+<h1 id="a-simple-example">a simple example</h1>
+<p>for this example we're just going to go through all the instructions. i added an "explination" box for clarity.</p>
+<table>
+<thead>
+<tr>
+<th>LINE</th>
+<th>INSTRUCTION</th>
+<th>EXPLINATION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>jump 3</td>
+<td>we jump to line 3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>jump 8</td>
+<td>skipped but if it wasn't we would jump to line 8</td>
+</tr>
+<tr>
+<td>3</td>
+<td>add 1</td>
+<td>add 1 to register 1, so reigster 1 = 1 item</td>
+</tr>
+<tr>
+<td>4</td>
+<td>add 2</td>
+<td>add 1 to register 2, so register 2 = 1 item</td>
+</tr>
+<tr>
+<td>5</td>
+<td>sub 1</td>
+<td>subtract 1 from register 1, so register 1 = 0 items</td>
+</tr>
+<tr>
+<td>6</td>
+<td>isz 1</td>
+<td>check if register 1 has any items. nope. so we skip the next line</td>
+</tr>
+<tr>
+<td>7</td>
+<td>jump 1</td>
+<td>skipped. but if line 6 was false, we would've jumped to line 1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>stop</td>
+<td>end of program. we're done!</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>REGISTER</th>
+<th>AMOUNT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h1 id="a-different-example">a different example</h1>
+<p>for this one notice how i changed the starting items in our registers. i also have a loop going here. we're essentially subtracting 1 from register 2, until it's empty.</p>
+<table>
+<thead>
+<tr>
+<th>LINE</th>
+<th>INSTRUCTION</th>
+<th>EXPLINATION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>sub 2</td>
+<td>subtract 1 from register 2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>isz 2</td>
+<td>check if it register 2 has 0 items.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>jump 1</td>
+<td>if not, jump to line 1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>stop</td>
+<td>stops the program once register 2 is empty.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>REGISTER</th>
+<th>AMOUNT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<h1 id="so-what-is-this-useful-for">so what is this useful for</h1>
+<p>what i like about it is that: first of all: we can program with this! in our previous example we litterately made an if / else statement + a while loop, that interacts with variables. THAT is beautiful. this is a very basic computer!</p>
+<p>now: the original paper computer only has 5 rules BUT if we wanted to be a little silly we can add MORE rules. </p>
+<ul>
+<li>resetz x = reset register x to 0</li>
+<li>addten x = adds 10 to register x</li>
+<li>double x = multiplies register x by 2</li>
+</ul>
+<p>you get the idea. you can make all sorts of rules in their own silly ways. if i can blow your mind: paper computers are a way to learn assembly (or assembly code)! let's show you an example of 6502 assembly! </p>
+<table>
+<thead>
+<tr>
+<th>LINE</th>
+<th>INSTRUCTION</th>
+<th>EXPLINATION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>LDA #$05</td>
+<td>loads 5 numbers into register a</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STA $0010</td>
+<td>saves it to memory address $0010</td>
+</tr>
+<tr>
+<td>3</td>
+<td>LDA #$03</td>
+<td>loads number 3 into register a</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STA $0011</td>
+<td>saves it to memory address $0011</td>
+</tr>
+<tr>
+<td>5</td>
+<td>LDA $0010</td>
+<td>copy value from address $0010 (5) into register a</td>
+</tr>
+<tr>
+<td>6</td>
+<td>CLC</td>
+<td>clear the carry flag</td>
+</tr>
+<tr>
+<td>7</td>
+<td>ADC $0011</td>
+<td>add value from address $0011 (3) to register a</td>
+</tr>
+<tr>
+<td>8</td>
+<td>STA $0012</td>
+<td>store new total (8) into address $0012</td>
+</tr>
+<tr>
+<td>9</td>
+<td>BRK</td>
+<td>stops the program</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>REGISTER</th>
+<th>AMOUNT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>6502 assembly has a bunch of new rules, but ignore that! BIG PICTURE! we can SEE how the logic of our paper computer is the SAME logic as assembly!</p>
