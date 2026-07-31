@@ -126,6 +126,30 @@
   }
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background color: var(--dark1);
+  border: 1px solid;
+}
+
+th, td {
+  background-color: var(--gray2);
+  border: 2px solid var(--dark1);
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  background-color: var(--gray1);
+  color: var(--dark1);
+  font-weight: bold;
+}
+
+td {
+  color: var(--dark1);
+}
+
 
 
 
